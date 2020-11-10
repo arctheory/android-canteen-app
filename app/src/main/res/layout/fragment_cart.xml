@@ -19,22 +19,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="64dp">
-            <TextView
-                android:layout_marginVertical="16dp"
-                android:layout_marginStart="16dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/delivery_in_progress"
-                android:fontFamily="sans-serif-black"
-                android:textColor="#999999"/>
-            <androidx.recyclerview.widget.RecyclerView
-                android:id="@+id/in_progress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="16dp"
-                android:layout_marginBottom="8dp"
-                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-                android:nestedScrollingEnabled="false"/>
 
             <TextView
                 android:layout_marginVertical="16dp"
@@ -72,7 +56,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             android:text="@string/your_cart"
             android:textSize="21sp"
-            android:textColor="@color/design_default_color_primary_dark"
+            android:textColor="@color/theme_green"
             android:fontFamily="sans-serif-black"/>
 
 

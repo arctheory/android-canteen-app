@@ -27,14 +27,14 @@
                 android:layout_marginEnd="8dp"
                 android:src="@drawable/ic_back_black_24dp"
                 android:background="@android:color/transparent"
-                android:tint="@color/design_default_color_primary_dark"/>
+                android:tint="@color/theme_green"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/your_bag_title"
+                android:text="@string/selected_items"
                 android:textSize="21sp"
                 android:fontFamily="sans-serif-black"
-                android:textColor="@color/design_default_color_primary_dark"/>
+                android:textColor="@color/theme_green"/>
     </LinearLayout>
 
     <TextView
@@ -68,6 +68,7 @@
         android:text="@string/place_order_btn"
         android:fontFamily="sans-serif-black"
         android:layout_marginHorizontal="16dp"
-        android:layout_marginBottom="8dp"/>
+        android:layout_marginBottom="8dp"
+        android:backgroundTint="@color/theme_green"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

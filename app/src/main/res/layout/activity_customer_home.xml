@@ -19,46 +19,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation" />
 
-    <RelativeLayout
-        android:id="@+id/bag"
-        android:layout_width="match_parent"
-        android:layout_height="56dp"
+    <LinearLayout
         app:layout_constraintBottom_toTopOf="@id/nav_view"
-        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:paddingHorizontal="16dp"
-        android:paddingVertical="8dp"
-        android:background="@color/design_default_color_primary_dark">
+        android:layout_margin="16dp"
+        android:id="@+id/bag"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:gravity="center"
+        android:background="@drawable/bag_btn">
         <TextView
+            android:id="@+id/bag_item_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/your_bag_title"
             android:textColor="@color/white"
-            android:fontFamily="sans-serif-black"
-            android:textSize="18sp"
-            android:layout_alignParentTop="true"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/checkout_items_title"
-            android:layout_alignParentBottom="true"
-            android:textColor="@color/white"
-            android:textSize="13sp"/>
-
-        <TextView
-            android:id="@+id/bag_count_text"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@{bagCount}"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:background="@drawable/search_background"
-            android:paddingVertical="8dp"
-            android:paddingHorizontal="16dp"
-            android:fontFamily="sans-serif-black"
-            android:textColor="@color/design_default_color_primary_dark"
-            tools:ignore="RelativeOverlap" />
-    </RelativeLayout>
+            android:text="@{count}"
+            android:textSize="21sp"
+            android:fontFamily="sans-serif-black"/>
+    </LinearLayout>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/nav_view"

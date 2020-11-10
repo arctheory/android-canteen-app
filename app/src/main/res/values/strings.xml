@@ -1,20 +1,19 @@
 <resources>
-    <string name="app_name">Store App</string>
+    <string name="app_name">Canteen App</string>
     <string name="title_activity_customer_home">MainActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
     <string name="title_activity_merchant_home">Merchant Home</string>
     <string name="title_search">Search</string>
-    <string name="title_cart">Cart</string>
-    <string name="title_account">Account</string>
-    <string name="home_fragment_title">PRODUCTS FROM NEARBY STORES</string>
+    <string name="title_cart">History</string>
+    <string name="title_account">Profile</string>
+    <string name="home_fragment_title">CANTEEN ITEMS</string>
     <string name="search_results_title">SEARCH RESULTS</string>
     <string name="search_products_hint">Search Products</string>
-    <string name="delivery_in_progress">DELIVERY IN PROGRESS</string>
     <string name="order_history">ORDER HISTORY</string>
-    <string name="your_cart">Your Cart</string>
-    <string name="your_account">Your Account</string>
+    <string name="your_cart">Your Orders</string>
+    <string name="your_account">Profile</string>
     <string name="login_caption">LOGIN USING EMAIL AND PASSWORD</string>
     <string name="email_hint">Email</string>
     <string name="password_hint">Password</string>
@@ -24,7 +23,6 @@
     <string name="create_new_account">CREATE NEW ACCOUNT</string>
     <string name="sign_up_caption">SIGN UP FILLING ALL DETAILS</string>
     <string name="full_name_hint">Full Name</string>
-    <string name="house_address_hint">House Address</string>
     <string name="sign_up_btn">CONTINUE</string>
     <string name="already_a_user_btn">ALREADY A USER</string>
     <string name="cancel_btn">Cancel</string>
@@ -34,15 +32,13 @@
     <string name="product_name_placeholder">Product Name</string>
     <string name="product_price_placeholder">₹20/-</string>
     <string name="order_id_placeholder">Order-ID</string>
-    <string name="order_in_progress_hint">Order in progress</string>
+    <string name="order_in_progress_hint">Ordered Item</string>
     <string name="product_add">ADD</string>
-    <string name="your_bag_title">Your Bag</string>
-    <string name="checkout_items_title">Checkout items in your bag</string>
     <string name="init_item_count">0</string>
-    <string name="profile_address">Address</string>
     <string name="profile_save_btn">SAVE</string>
     <string name="profile_logout">LOGOUT</string>
     <string name="current_bag_items">CURRENT BAG ITEMS</string>
-    <string name="place_order_btn">Place Order</string>
+    <string name="place_order_btn">Confirm Order</string>
     <string name="remove_btn">REMOVE</string>
+    <string name="selected_items">Selected Items</string>
 </resources>
